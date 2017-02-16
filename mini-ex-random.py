@@ -4,8 +4,10 @@
 # 필수 과제는 아닙니다.
 # 다 하신 분은 채팅방에 결과 공유해주세요 :)
 
+import random
+
 a = [1,2,3,4,5]
-x =
+x = random.randrange(0,5)
 b = a[x]
 
 print (b)
