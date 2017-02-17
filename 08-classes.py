@@ -57,23 +57,26 @@ article2 = Article("coding", "coding easy")
 article2 = Article("venture", "venture easy")
 
 
-# print(article1.view_count)
-# article1.read()
-# print(article1.view_count)
+print(article1.view_count)
+article1.read()
+print(article1.view_count)
+print(article1.title)
+print(article2.title)
+
 
 
 
 ##### Article Class inheritance #####
-class BrunchArticle(Article):
-    source = "brunch"
-
-    def read(self):
-        self.view_count = self.view_count + 2
-        #  article class에있는 read 함수를 override  가능함.
-
-brunch_article = BrunchArticle("dev","dev easy2")
-print(brunch_article.title)
-print(brunch_article.source)
-print(brunch_article.view_count)
-brunch_article.read()
-print(brunch_article.view_count)
+# class BrunchArticle(Article):
+#     source = "brunch"
+#
+#     def read(self):
+#         self.view_count = self.view_count + 2
+#         #  article class에있는 read 함수를 override  가능함.
+#
+# brunch_article = BrunchArticle("dev","dev easy2")
+# print(brunch_article.title)
+# print(brunch_article.source)
+# print(brunch_article.view_count)
+# brunch_article.read()
+# print(brunch_article.view_count)
