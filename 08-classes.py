@@ -66,14 +66,14 @@ print(article2.title)
 
 
 
-##### Article Class inheritance #####
-# class BrunchArticle(Article):
-#     source = "brunch"
-#
-#     def read(self):
-#         self.view_count = self.view_count + 2
-#         #  article class에있는 read 함수를 override  가능함.
-#
+#### Article Class inheritance #####
+class BrunchArticle(Article):
+    source = "brunch"
+
+    def read(self):
+        self.view_count = self.view_count + 2
+        #  article class에있는 read 함수를 override  가능함.
+
 # brunch_article = BrunchArticle("dev","dev easy2")
 # print(brunch_article.title)
 # print(brunch_article.source)

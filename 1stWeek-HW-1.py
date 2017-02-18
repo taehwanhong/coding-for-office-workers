@@ -27,20 +27,35 @@ choose = input("한식, 일식, 중식 중 하나를 고르시오. ")
 
 if choose == "한식":
     restaurant = korea_food #입력 변수가 한식 이면 korea_food 입력
+    # 음식점 list 갯수 count
+    y = len(restaurant)
+    # random값 입력
+    x = random.randrange(0, y)
+    # 입력받은 음식 종류 출력
+    print("당신은 " + choose + "를 선택하셨습니다.")
+    # 식당 랜덤 값 입력하여 출력
+    print(restaurant[x])
 elif choose == "중식":
     restaurant = china_food
+    # 음식점 list 갯수 count
+    y = len(restaurant)
+    # random값 입력
+    x = random.randrange(0, y)
+    # 입력받은 음식 종류 출력
+    print("당신은 " + choose + "를 선택하셨습니다.")
+    # 식당 랜덤 값 입력하여 출력
+    print(restaurant[x])
 elif choose == "일식":
     restaurant = japan_food
+    # 음식점 list 갯수 count
+    y = len(restaurant)
+    # random값 입력
+    x = random.randrange(0, y)
+    # 입력받은 음식 종류 출력
+    print("당신은 " + choose + "를 선택하셨습니다.")
+    # 식당 랜덤 값 입력하여 출력
+    print(restaurant[x])
 else : #입력 이상한거 하면 오류 문구 출력
-    print("세개중 하나를 정확하게 입력해야지")
-
-# 음식점 list 갯수 count
-y = len(restaurant)
-# random값 입력
-x = random.randrange(0,y)
+    print("세개중 하나를 정확하게 입력해야지 짜샤")
 
 
-#입력받은 음식 종류 출력
-print("당신은 "+choose+"를 선택하셨습니다.")
-#식당 랜덤 값 입력하여 출력
-print(restaurant[x])
