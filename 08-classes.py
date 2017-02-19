@@ -17,7 +17,7 @@ title3 = "venture"
 author3 = "david"
 content3 = "venture easy"
 content3 = "venture easy"
-view_count3 = 0
+view_count3 =  0
 
 
 
