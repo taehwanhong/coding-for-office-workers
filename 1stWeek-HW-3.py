@@ -26,6 +26,30 @@ elif play == "N":
 else:
     print("Y/N을 입력하세요")
 
-while play = True
+while play == True
+
+class Game:
+    def whowin(self):
+        # 가위바위보 입력 받기
+        user = input("뭐낼껀데?")
+
+<<<<<<< HEAD
+=======
 
 
+
+
+            #
+# # 가위바위보 기본 list로 만들기
+# var = ["가위", "바위", "보"]
+#
+# # 가위바위보는 3개니깐 0-2까지 랜덤 만들어보자
+# x = random.randrange(0,2)
+# com = var[x]
+#
+# # 유저와 컴퓨터의 승패를 기록할 변수 생성
+# com_win = [1,2,3]
+# user_win = [1,2,3]
+#
+#
+>>>>>>> 6e6b3cb6359a2b31659278f4a0d96ccbf654af01
