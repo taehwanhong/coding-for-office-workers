@@ -33,6 +33,8 @@ class Game:
         # 가위바위보 입력 받기
         user = input("뭐낼껀데?")
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -50,3 +52,4 @@ class Game:
 # user_win = [1,2,3]
 #
 #
+>>>>>>> 6e6b3cb6359a2b31659278f4a0d96ccbf654af01
