@@ -1,3 +1,5 @@
-.idea/
+.idea/workspace.xml
+.idea/.DS_store
+
 db.sqlite3
 workspace.xml
