@@ -1,4 +1,5 @@
 from django.contrib import admin
+<<<<<<< HEAD
 from .models import Article
 from .models import Comment
 # Register your models here.
@@ -11,3 +12,4 @@ class BlogAdmin(admin.ModelAdmin):
 @admin.register(Comment)
 class BlogAdmin(admin.ModelAdmin):
     pass
+
