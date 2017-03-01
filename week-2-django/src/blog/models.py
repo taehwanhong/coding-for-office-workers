@@ -6,6 +6,7 @@ class Article(models.Model):
     contents = models.TextField()
     view_count = models.IntegerField()
 
+
     def __str__(self):
         return "{} ({})".format(self.title, self.view_count)
 

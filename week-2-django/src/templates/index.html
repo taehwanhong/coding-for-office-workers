@@ -1,10 +1,36 @@
 {%  extends "base.html" %}
 
 {% block body %}
-<div class="colorful-text">
-    <div> hello world {{ name }} </div>
-    {% for article in article_list %}
-        {{ article.title }}
-    {% endfor %}
+<div class="container">
+    <div class="col-xs-6">
+        <div class="colorful-text">
+            <div> hello world {{ name }} </div>
+            <div> hello world taehwan </div>
+        </div>
+    </div>
+    <div class="col-xs-6">
+        {% for article in article_list %}
+            <div>
+                {{ article.title }}
+                <span class="label label-default">{{ article.view_count }}</span>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="col-xs-12">
+        <i class="fa fa-stop" aria-hidden="true"></i>
+        <i class="fa fa-play" aria-hidden="true"></i>
+        <i class="fa fa-camera-retro fa-lg"></i> fa-lg
+        <i class="fa fa-camera-retro fa-2x"></i> fa-2x
+        <i class="fa fa-camera-retro fa-3x"></i> fa-3x
+        <i class="fa fa-camera-retro fa-4x"></i> fa-4x
+        <i class="fa fa-camera-retro fa-5x"></i> fa-5x
+        <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+        <span class="sr-only">Loading...</span>
+    </div>    <div class="col-xs-12">
+       <a class="btn btn-danger" href="#">
+         <i class="fa fa-trash-o fa-lg"></i> Delete</a>
+       <a class="btn btn-default btn-sm" href="#">
+         <i class="fa fa-cog"></i> Settings</a>
+    </div>
 </div>
 {% endblock %}
