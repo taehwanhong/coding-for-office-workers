@@ -1,5 +1,2 @@
 .idea/workspace.xml
-.DS_store
-
-db.sqlite3
-workspace.xml
+.idea/
