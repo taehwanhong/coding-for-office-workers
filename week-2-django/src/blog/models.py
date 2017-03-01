@@ -6,6 +6,10 @@ class Article(models.Model):
     contents = models.TextField()
     view_count = models.IntegerField()
 
+# admin page에 title보여줌.
+    def __str__(self):
+        return "{} ({})".format(self.title, self.view_count)
+
 
 class Comment(models.Model):
     article = models.ForeignKey(Article)
